@@ -198,7 +198,7 @@
 		<div class="navbar-scroller">
 			<ul class="menu nav navbar-nav">
 				<li class="menu__item is-leaf first leaf active">
-					<a href="http://www.u.arizona.edu/~wzhang357/" title="" class="menu__link text-uppercase active">Home
+					<a href="http://www.u.arizona.edu/~wzhang357/" title="" class="menu__link text-uppercase active" target="_self">Home
 					</a>
 				</li>
 				<li class="menu__item is-expanded expanded dropdown">
@@ -208,21 +208,21 @@
 					</a>
 					<ul class="dropdown-menu">
 						<li class="menu__item is-leaf first leaf">
-							<a href="research.html" class="menu__link">Overview
+							<a href="research.html" class="menu__link" target="_self">Overview
 							</a>
 						</li>
 						<li class="menu__item is-leaf first leaf">
-							<a href="research.html#pp" class="menu__link">Power Plants
+							<a href="research.html#jmp" class="menu__link" target="_self">Job Market Paper
+							</a>
+						</li>											
+						<li class="menu__item is-collapsed last collapsed">
+							<a href="research.html#cpp" class="menu__link" target="_self">Coal Power Plants
 							</a>
 						</li>
 						<li class="menu__item is-leaf leaf">
-							<a href="research.html#ev" class="menu__link">Electric Vehicles
+							<a href="research.html#ev" class="menu__link" target="_self">Electric Vehicles
 							</a>
-						</li>						
-						<li class="menu__item is-collapsed last collapsed">
-							<a href="research.html#cpp" class="menu__link">Coal Power Plants
-							</a>
-						</li>
+						</li>	
 					</ul>              
 				</li>
 				<li class="menu__item is-expanded expanded dropdown">
@@ -232,34 +232,34 @@
 					</a>
 					<ul class="dropdown-menu">
 						<li class="menu__item is-collapsed first collapsed">
-							<a href="teaching.html" title="All Courses" class="menu__link">Overview
+							<a href="teaching.html" title="All Courses" class="menu__link" target="_self">Overview
 							</a>
 						</li>
 						<li class="menu__item is-collapsed first collapsed">
-							<a href="teaching.html#gd" title="Econ 431 Games and Decisions" class="menu__link">Games and Decisions
+							<a href="teaching.html#gd" title="Econ 431 Games and Decisions" class="menu__link" target="_self">Games and Decisions
 							</a>
 						</li>
 						<li class="menu__item is-collapsed collapsed">
-							<a href="teaching.html#be" title="Econ 436 Behavioral Economics" class="menu__link">Behavioral Economics
+							<a href="teaching.html#be" title="Econ 436 Behavioral Economics" class="menu__link" target="_self">Behavioral Economics
 							</a>
 						</li>
 						<li class="menu__item is-leaf leaf">
-							<a href="teaching.html#online" title="Econ 330 Macroeconomic and Global Institutions and Policy (online)" class="menu__link">Online Course
+							<a href="teaching.html#online" title="Econ 330 Macroeconomic and Global Institutions and Policy (online)" class="menu__link" target="_self">Online Course
 							</a>
 						</li>
 						<li class="menu__item is-leaf leaf">
-							<a href="teaching.html#ta" title="Teaching Assistant" class="menu__link">Teaching Assistant
+							<a href="teaching.html#ta" title="Teaching Assistant" class="menu__link" target="_self">Teaching Assistant
 							</a>
 						</li>
 					</ul>
 				</li>
 				<li class="menu__item is-leaf last leaf">
-					<a href="cv.html" title="Online CV" class="menu__link text-uppercase">CV
+					<a href="cv.html" title="Online CV" class="menu__link text-uppercase" target="_self">CV
 					</a>
 					<!--<iframe src="https://docs.google.com/gview?url=http://www.u.arizona.edu/~wzhang357/WendanZhang.docx&embedded=true"></iframe>-->
 				</li>
 				<li class="menu__item is-leaf last leaf">
-					<a href="engage.html" title="Engage" class="menu__link text-uppercase">Engage
+					<a href="engage.html" title="Engage" class="menu__link text-uppercase" target="_self">Engage
 					</a>
 				</li>
 			</ul>
@@ -273,75 +273,92 @@
 <section id="content" class="page-row page-row-expanded">
 	<h1>Research Topics
 	</h1>
+	<h4>
+		I have conducted research in three topics: 
+	</h4>
+	<ol>
+		<li>The relative market and regulation impact on coal-fired power plant retirement decisions (Job Market Paper)</li>
+		<li>The polluting behavior of retiring coal-fired power plants</li>
+		<li>The reasons that households are not driving Electric Vehicles (EVs) as much as expected</li>
+	</ol>
 
 	<hr></hr>	
 	<div class="row">
-		<div class="col-md-9">
+		<div class="col-md-10">
 
-			<div class="card bg-cool-gray card-block" id="pp">
-				<h2 class="text-align-left text-bloom mt-0">
-					<a href="paper/power_plants.pdf">Power Plants
+			<div class="card bg-cool-gray card-block" id="jmp">
+				<h3 class="text-align-left text-bloom mt-0">
+					<a href="paper/WendanZhang_JMP.pdf">Effects of Market Conditions, Environmental Regulations and Regulatory Uncertainty on Investment and Exit
 					</a>
-				</h2>
+				</h3>
 			</div>	
 			<div class="card-landing-grid p-3">
 				<h3>Abstract
 				</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+				<p>The coal-fired power plant industry, once representing more than half of the U.S. electricity generation, is a major polluting source of various emissions. Since around 2010, more than one-third of the capacity has retired. The underlying reasons may include both market conditions and government regulations. However, the existing empirical studies have diverse conclusions regarding the relative impact. My study aims to better understand the relative impact of market conditions and government regulations, possibly with uncertainty, on coal-fired power plants’ retirement decisions. This study can help guide the government in designing environmental regulations to reduce emissions efficiently.
+I use a dynamic exit and abatement technology investment model to study coal-fired power plants’ retirement decisions. Specifically, my empirical approach consists of a static dispatch model to estimate the annual variable profit for each coal power plant and a single agent dynamic model to estimate the exit costs. With this model, I conduct the following counterfactual analyses to compare the relative impact of each factor on coal-fired power plant retirement decisions: 1) removing certain environmental regulations such as the Mercury Air Toxics Standard (MATS); 2) sustaining high natural gas prices; 3) introducing certain new environmental regulations. In addition, the model can predict decisions for each coal-fired power plant, with which we can examine if the responses are spatially heterogeneous.
+
+<!-- The data used in this study are from the Continuous Emission Monitoring System (CEMS), which includes all the coal-fired power plants regulated by the Acid Rain Program (ARP) in the U.S. The time range is from 2003 to 2018. I restrict the data to the PJM Regional Transmission Organization (RTO). The PJM RTO is a suitable area for the study because it is the world's largest wholesale electricity market and around a quarter of the coal-fired power plants in the U.S. serve this market. Understanding how decisions are made in the PJM RTO will be informative for how coal-fired power plants make decisions nationally.
+ -->
 				</p> 	
 			</div>
 
 			<hr></hr>	
-			<div class="card bg-cool-gray card-block" id="ev">
+			<div class="card bg-cool-gray card-block" id="cpp">
 				<h2 class="text-align-left text-bloom mt-0">
-					<a href="paper/electric_vehicles.pdf">Why Electric Vehicles are driven less: selection or substitution?
+					<a href="paper/WendanZhang_Emission.pdf">Emissions from Coal-Fired Power Plant Retirements
 					</a>
 				</h2>
 			</div>	
 			<div class="card-landing-grid p-3">
 				<h3>Abstract
 				</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-				</p> 	
+				<p>
+					The coal-fired power plant industry is a major polluting source of various emissions, including greenhouse gas (CO2), sulfur dioxide (SO2) and nitrogen oxides (NOx). Beginning in around 2012, many coal-fired power plants in the U.S. started to retire, which creates a chance for evaluating their end-of-business-cycle polluting behavior. This paper examined the coal-fired power plants’ emission patterns when they approach retirement. A better understanding of such emission patterns can guide the government in designing environmental regulations that reduce emissions efficiently. Using data from the Continuous Emission Monitoring System (CEMS), which includes all the coal power plants regulated by the Acid Rain Program (ARP) in the U.S., we apply a fixed effects model to evaluate the emission rates for the last 10 years of operation. I found a significantly higher CO2 emission rate in their last three years of operation and a constantly increasing trend for NOx and SO2 emission rates in their last five years of operation. As a result, in their last year of operation, each generating unit on average emits 78.6 million lbs CO2 (1.5%), 0.9 million lbs NOx (14%) and 6.3 million lbs SO2 (47.6%) more than the baseline level in 2012. The increase in CO2 emission rate is mainly due to the lower efficiency of the generating units. Controlling for the monthly lagged startup and shutdown frequency can explain about 17% of the efficiency decrease in their last year of operation. I use a single agent model to study the power plants’ exit decision and predict the retirement decision in each year. Plants with higher exit probability do not show a significantly different emission rate trend suggesting that intentionally reducing maintenance may not be the main driving force. Regulated coal power plants exhibit a higher SO2 emission rate trajectory than their privatized counterpart, which implies capital-intensive abatement techniques may play an important role. 
+				</p> 
 			</div>	
 
 			<hr></hr>	
-			<div class="card bg-cool-gray card-block" id="cpp">
+			<div class="card bg-cool-gray card-block" id="ev">
 				<h2 class="text-align-left text-bloom mt-0">
-					<a href="paper/coal_power_plants.pdf">Coal Power Plants
+					<a href="paper/WendanZhang_EV.pdf">				
+					Why Electric Vehicles are driven less: <br/>
+					selection or substitution?
 					</a>
 				</h2>
 			</div>	
 			<div class="card-landing-grid p-3">
 				<h3>Abstract
 				</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-				</p> 
+				<p>
+					Electric Vehicles (EVs) are advocated as an environmentally friendly substitute for traditional gasoline cars. The benefit of the subsidies in promoting EVs depends not only on the cost-effectiveness of the policy on adoption but also on how much mileage can be substituted away from traditional vehicles. Davis (2019) shows that EVs are driven much less than traditional cars nationwide, which suggests much smaller environmental benefits than expected. However, little is known about the underlying mechanism. It is unclear who select into owning EVs, how much they expect to use it before the purchase, as well as the relized mileage after their purchase decision. To provide more support for policy implication, this paper explores the underlying mechanism of EVs being less driven. For average households purchasing an EV, there is no significant change of mileage in the other cars. Households incentivized to adopt EVs substitute certain mileage away from other cars in their portfolio but not as much as when they buy another gasoline-powered vehicle.
+				</p> 	
 			</div>	
 		</div>  
-		<div class="col-md-3">
+		<div class="col-md-2">
 			<div id="catstrap-sidebar" data-spy="affix" data-offset-top="303" class="hidden-print hidden-xs hidden-sm affix-top"> 
 				<ul class="nav bs-docs-sidenav">
 					<li class="">
-						<a href="index.html">Home
+						<a href="index.html" target="_self">Home
 						</a>							
 					</li>
 					<li class="">
-						<a href="#header_ua">Top
+						<a href="#header_ua" target="_self">Top
 						</a>							
 					</li>
 					<li class="">
-						<a href="#pp">Power Plants
+						<a href="#jmp" target="_self">Job Market Paper
+						</a>							
+					</li>
+										
+					<li class="">
+						<a href="#cpp" target="_self">Polluting Behavior
 						</a>							
 					</li>
 					<li class="">
-						<a href="#ev">Electric Vehicles
+						<a href="#ev" target="_self">Electric Vehicles
 						</a>							
-					</li>						
-					<li class="">
-						<a href="#cpp">Coal Power Plants
-						</a>							
-					</li>
+					</li>	
 				</ul>
 			</div>
 		</div>
