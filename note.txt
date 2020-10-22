@@ -1,0 +1,2 @@
+download.sh will download everything from u.arizona.edu
+edit and check the results on u.arizona.edu and then download everything and push
